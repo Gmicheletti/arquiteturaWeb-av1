@@ -30,9 +30,5 @@ public class Cursos {
     private String nome;
     private String descricao;
     Integer cargaHoraria;
-
-    @OneToMany(mappedBy = "curso")
-    @JsonIgnore
-    private List<Alunos> alunos;
-    
+        
 }
